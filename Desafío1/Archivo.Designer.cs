@@ -59,10 +59,10 @@ namespace Desafío1
             this.groupBox1.Controls.Add(this.nPaciente);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.groupBox1.Location = new System.Drawing.Point(1429, 30);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(1230, 31);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(347, 382);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -76,7 +76,7 @@ namespace Desafío1
             "Media",
             "Alta"});
             this.npresion.Location = new System.Drawing.Point(92, 309);
-            this.npresion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.npresion.Margin = new System.Windows.Forms.Padding(4);
             this.npresion.Name = "npresion";
             this.npresion.Size = new System.Drawing.Size(160, 24);
             this.npresion.TabIndex = 7;
@@ -101,7 +101,7 @@ namespace Desafío1
             "AB",
             "O"});
             this.Sangre.Location = new System.Drawing.Point(92, 235);
-            this.Sangre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Sangre.Margin = new System.Windows.Forms.Padding(4);
             this.Sangre.Name = "Sangre";
             this.Sangre.Size = new System.Drawing.Size(160, 24);
             this.Sangre.TabIndex = 5;
@@ -134,7 +134,7 @@ namespace Desafío1
             "Hombre",
             "Mujer"});
             this.pGenero.Location = new System.Drawing.Point(92, 158);
-            this.pGenero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pGenero.Margin = new System.Windows.Forms.Padding(4);
             this.pGenero.Name = "pGenero";
             this.pGenero.Size = new System.Drawing.Size(160, 24);
             this.pGenero.TabIndex = 2;
@@ -155,7 +155,7 @@ namespace Desafío1
             // 
             this.nPaciente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nPaciente.Location = new System.Drawing.Point(47, 79);
-            this.nPaciente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nPaciente.Margin = new System.Windows.Forms.Padding(4);
             this.nPaciente.Name = "nPaciente";
             this.nPaciente.Size = new System.Drawing.Size(257, 22);
             this.nPaciente.TabIndex = 0;
@@ -168,10 +168,10 @@ namespace Desafío1
             this.groupBox2.Controls.Add(this.btnBorrar);
             this.groupBox2.Controls.Add(this.btnRegistrar);
             this.groupBox2.ForeColor = System.Drawing.Color.Maroon;
-            this.groupBox2.Location = new System.Drawing.Point(1429, 449);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(1230, 439);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(347, 188);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -183,7 +183,7 @@ namespace Desafío1
             this.btnDraw.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDraw.ForeColor = System.Drawing.SystemColors.Control;
             this.btnDraw.Location = new System.Drawing.Point(95, 121);
-            this.btnDraw.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDraw.Margin = new System.Windows.Forms.Padding(4);
             this.btnDraw.Name = "btnDraw";
             this.btnDraw.Size = new System.Drawing.Size(167, 28);
             this.btnDraw.TabIndex = 4;
@@ -197,7 +197,7 @@ namespace Desafío1
             this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBorrar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnBorrar.Location = new System.Drawing.Point(95, 85);
-            this.btnBorrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBorrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(167, 28);
             this.btnBorrar.TabIndex = 3;
@@ -211,7 +211,7 @@ namespace Desafío1
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnRegistrar.Location = new System.Drawing.Point(95, 49);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(169, 28);
             this.btnRegistrar.TabIndex = 0;
@@ -226,7 +226,7 @@ namespace Desafío1
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSalir.Location = new System.Drawing.Point(53, 704);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(99, 43);
             this.btnSalir.TabIndex = 2;
@@ -239,11 +239,11 @@ namespace Desafío1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(1827, 762);
+            this.ClientSize = new System.Drawing.Size(1600, 762);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Archivo";
             this.Text = "Control de Pacientes";
             this.Load += new System.EventHandler(this.archivo_Load);

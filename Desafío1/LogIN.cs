@@ -27,7 +27,7 @@ namespace Desafío1
                 if ((textBox1.Text == "admin") && (textBox2.Text == "admin"))
                 {
 
-                    MessageBox.Show("BIENVENID@ AL REGISTRO DE PACIENTES");
+                    MessageBox.Show("¡ BIENVENIDO/A !");
                     Ingresar = new Archivo();
                     Ingresar.Show();
                     this.Hide();

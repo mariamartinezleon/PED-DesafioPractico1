@@ -21,7 +21,7 @@ namespace Desafío1
         public Archivo()
         {
             InitializeComponent();
-            area = CreateGraphics(); //area de dibujo
+            area = CreateGraphics(); //area de dibujo -----
         }
 
         private void nPaciente_TextChanged(object sender, EventArgs e)
@@ -48,13 +48,13 @@ namespace Desafío1
         {
             if (nPaciente.Text == " " || pGenero.Text == "" || Sangre.Text == "" || npresion.Text == "")
             {
-                MessageBox.Show("DEBE INGRESAR TODOS LOS DATOS");
+                MessageBox.Show("¡Debe completar todos los datos!");
             }
 
             else
             {
 
-                MessageBox.Show("El paciente se registro con exito");
+                MessageBox.Show("¡Registrado con exito!");
                 //limpiar();
 
 
@@ -75,13 +75,13 @@ namespace Desafío1
         {
             if (nPaciente.Text == " ")
             {
-                MessageBox.Show("DEBE INGRESAR El NOMBRE DEL PACIENTE");
+                MessageBox.Show("¡Ingrese el nombre del paciente!");
             }
 
             else
             {
 
-                MessageBox.Show("Buscando el paciente");
+                MessageBox.Show("Buscando el paciente...");
                 //limpiar();
 
                               
@@ -96,7 +96,7 @@ namespace Desafío1
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            area.Clear(Color.AntiqueWhite);
+            area.Clear(Color.DarkSalmon);
             limpiar();
         }
 
@@ -137,7 +137,7 @@ namespace Desafío1
         {
             System.Drawing.Graphics formGraphics = this.CreateGraphics();
             string drawString = Paciente;
-            System.Drawing.Font drawFont = new System.Drawing.Font("Arial", 12);
+            System.Drawing.Font drawFont = new System.Drawing.Font("Consolas", 10);
             System.Drawing.SolidBrush drawBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Black);
             float x = 100.0F;
             float y = 200.0F;
